@@ -52,24 +52,7 @@ showPassworIdButton.addEventListener("click", () => {
     showPassworIdButton.style.opacity = 1;
   }
 });
-// campos vacios
-// document.addEventListener("DOMContentLoaded", () => {
-//   let form = document.getElementById("form");
-//   let warnings = document.getElementById("warnings");
-//   form.addEventListener("submit", (event) => {
-//     event.preventDefault();
-//     let username = document.getElementById("tbxUsername").value;
-//     let password = document.getElementById("tbxPassword").value;
-//     let confirmPassword = document.getElementById("tbxConfirmPassword").value;
-//     let usernameId = document.getElementById("tbxUsernameId").value;
-//     let passwordId = document.getElementById("tbxPasswordId").value;
-//     if (!username || !password || !confirmPassword || !usernameId || !passwordId) {
-//       warnings.textContent = "Todos los campos son obligatorios";
-//     } else {
-//       form.submit();
-//     }
-//   });
-// });
+
 
 
 
